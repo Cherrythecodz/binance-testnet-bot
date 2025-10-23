@@ -1,0 +1,6 @@
+2025-10-23 12:54:08,770 | DEBUG | Initialized BasicBot with base_url=https://testnet.binancefuture.com
+2025-10-23 12:54:08,771 | INFO | Placing MARKET order: BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-10-23 12:54:08,771 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | payload: symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=60000&timestamp=1761204248771&signature=a4488eac175e980519a4408a96143e4317856944a880fbdbcc9076cb4627ee14
+2025-10-23 12:54:09,329 | INFO | HTTP POST https://testnet.binancefuture.com/fapi/v1/order -> 200
+2025-10-23 12:54:09,330 | DEBUG | Response text: {"orderId":6707458314,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xefPoCErVprK42zGouUruz","price":"0.00","avgPrice":"0.00","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1761204248669}
+2025-10-23 12:54:09,338 | INFO | Order accepted: orderId=6707458314 status=NEW
